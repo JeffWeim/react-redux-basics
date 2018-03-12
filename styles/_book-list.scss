@@ -1,0 +1,21 @@
+$ns: '.book-list';
+
+#{$ns} {
+  width: 100%;
+  max-width: 330px;
+
+  input {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  ul {
+    padding: 0;
+    width: 100%;
+  }
+
+  &__clear {
+    display: block;
+    text-align: center;
+  }
+}
